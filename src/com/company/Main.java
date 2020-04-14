@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Autorzy");
         System.out.println(DEV2.author);
+        System.out.println(DEV1.author);
 
         System.out.println("JDK");
         System.out.println(System.getProperty("java.version"));
