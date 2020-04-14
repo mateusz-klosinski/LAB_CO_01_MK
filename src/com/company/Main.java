@@ -3,11 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        Class<?> clazz = Main.class;
-        Package pacage = clazz.getPackage();
+        System.out.println("Autorzy");
+        System.out.println(DEV1.author);
 
-        System.out.println("Nazwa projektu");
-        System.out.println(pacage.getName());
 
         System.out.println("JDK");
         System.out.println(System.getProperty("java.version"));
